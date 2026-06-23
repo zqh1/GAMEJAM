@@ -7,11 +7,17 @@
 [Uu]ser[Ss]ettings/
 
 .vs/
+.vscode/
 .idea/
+.plastic/
 *.csproj
 *.sln
+*.slnx
 *.user
 *.unityproj
+ignore.conf
+
+My project/
 
 .DS_Store
 Thumbs.db
