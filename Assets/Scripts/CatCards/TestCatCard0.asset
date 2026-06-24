@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f656ca59ad6ee804aabd69971183fd03, type: 3}
+  m_Name: TestCatCard0
+  m_EditorClassIdentifier: Assembly-CSharp::CatCard
+  eventText: "The cat doesn\u2019t seem very pleased with the old cat teaser."
+  catSprite: {fileID: -7693048783315187038, guid: c488bf6e9915543439b5f45259e334f1, type: 3}
+  leftChoice:
+    choiceText: "All right, my lord, I\u2019ll go and buy you a new one!"
+    statChanges:
+    - statType: 3
+      amount: -2
+    - statType: 2
+      amount: 1
+    hiddenTraitAnswers: []
+  rightChoice:
+    choiceText: Not again, please.
+    statChanges:
+    - statType: 2
+      amount: -1
+    hiddenTraitAnswers: []

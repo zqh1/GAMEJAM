@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f656ca59ad6ee804aabd69971183fd03, type: 3}
+  m_Name: TestCatCard2
+  m_EditorClassIdentifier: Assembly-CSharp::CatCard
+  eventText: Your cat is absolutely enormous right now. They can barely haul themselves
+    onto the sofa.
+  catSprite: {fileID: -2704126492137079918, guid: e1dc017381f664140bf5498018c36a53, type: 3}
+  leftChoice:
+    choiceText: Kitty boot camp it is. The diet starts today!
+    statChanges:
+    - statType: 0
+      amount: 2
+    - statType: 4
+      amount: -1
+    hiddenTraitAnswers: []
+  rightChoice:
+    choiceText: Embrace the chonk! Have another can!
+    statChanges:
+    - statType: 2
+      amount: 1
+    - statType: 0
+      amount: -2
+    - statType: 3
+      amount: -1
+    hiddenTraitAnswers: []

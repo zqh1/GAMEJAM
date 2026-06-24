@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f656ca59ad6ee804aabd69971183fd03, type: 3}
+  m_Name: TestCatCard1
+  m_EditorClassIdentifier: Assembly-CSharp::CatCard
+  eventText: The cat sleeps on your keyboard while you work.
+  catSprite: {fileID: -5414592618318402613, guid: 1994cf730d63abe4484fa96812f19b16, type: 3}
+  leftChoice:
+    choiceText: Guess my work can wait
+    statChanges:
+    - statType: 4
+      amount: 1
+    - statType: 2
+      amount: 1
+    hiddenTraitAnswers: []
+  rightChoice:
+    choiceText: Move, I have a deadline!
+    statChanges:
+    - statType: 3
+      amount: 3
+    - statType: 2
+      amount: -1
+    - statType: 4
+      amount: -1
+    hiddenTraitAnswers: []
